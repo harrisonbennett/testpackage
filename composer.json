@@ -1,0 +1,20 @@
+{
+    "name": "harrybennett/testpackage",
+    "description": "Just an initial test",
+    "keywords": ["laravel"],
+    "require": {
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Harry Bennett",
+            "email": "harrisongbennett@gmail.com"
+        }
+    ],
+     "autoload": {
+        "psr-4": {
+            "Harrybennett\\TestPackage\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
